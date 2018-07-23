@@ -42,9 +42,9 @@
   (when sys/win32p
     (setenv "GIT_ASKPASS" "git-gui--askpass"))
 
-  ;; Github integration
-  (use-package magithub
-    :init (magithub-feature-autoinject t))
+  ;; ;; Github integration
+  ;; (use-package magithub
+  ;;   :init (magithub-feature-autoinject t))
 
   ;; Gitflow externsion for Magit
   (use-package magit-gitflow
